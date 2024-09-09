@@ -1,0 +1,7 @@
+# Complete the solve function below.
+def solve(s):
+    s=list(s.split(" "))
+    s1=""
+    for i in s:
+        s1=s1+i.capitalize()+" "
+    return s1
